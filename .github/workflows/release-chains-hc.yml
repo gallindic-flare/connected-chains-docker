@@ -3,6 +3,9 @@ on:
   push:
   pull_request:
 
+
+permissions: read-all
+
 jobs:
   call:
     uses: ./.github/workflows/release-image.yml
