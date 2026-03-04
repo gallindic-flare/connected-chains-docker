@@ -19,6 +19,7 @@ jobs:
       repository-projects: read
       statuses: read
       security-events: read
+      artifact-metadata: read
       packages: write
       id-token: write
       attestations: write
