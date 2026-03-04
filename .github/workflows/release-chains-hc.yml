@@ -14,6 +14,8 @@ jobs:
       contents: read
       packages: write
       id-token: write
+      actions: read
+      attestations: write
     with:
       image: ghcr.io/${{ github.repository }}/go_chains_hc
       context: images/go_chains_hc
