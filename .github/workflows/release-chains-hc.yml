@@ -1,11 +1,7 @@
 name: Release Connected Chains Healthcheck
 on:
   push:
-    branches: [main]
-    paths: ["images/go_chains_hc/**"]
   pull_request:
-    branches: [main]
-    paths: ["images/go_chains_hc/**"]
 
 jobs:
   call:
